@@ -4,7 +4,7 @@ def simple_curfew_checker(t)
   elsif t > 11
     puts "Honey, you are late!"
   else t == 11
-    puts "Run girl, RUUUUNNNN!"
+    puts "You're in trouble! Better get home quick!"
 end
 
 def curfew_checker(time)
