@@ -38,7 +38,7 @@ def deluxe_curfew_checker(t)
     puts "Time to apparate!"
   end
 end
-deluxe_curfew_checker(15)
+deluxe_curfew_checker(6)
 
 def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
