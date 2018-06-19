@@ -7,7 +7,7 @@ def simple_curfew_checker(t)
 end
 simple_curfew_checker(10)
 
-def curfew_checker(time)
+def curfew_checker(t)
    if t < 11
     puts "You're not in trouble!"
   else t >= 11
