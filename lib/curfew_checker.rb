@@ -1,7 +1,7 @@
 def simple_curfew_checker(t)
   if t < 11
     puts "You're not in trouble!"
-  if t >= 11
+  else t >= 11
     puts "You're in trouble! Better get home quick!"
   end
 end
@@ -10,11 +10,11 @@ simple_curfew_checker(10)
 def curfew_checker(time)
    if t < 11
     puts "You're not in trouble!"
-  elsif t >= 11
+  else t >= 11
     puts "You're in trouble! Better get home quick!"
   end
 end
-curfew_checker(10)
+curfew_checker(12)
 end
 
 def complex_curfew_checker(time)
