@@ -31,7 +31,8 @@ complex_curfew_checker(11)
 def deluxe_curfew_checker(t)
   t = 
    if t < 11
-    puts "Keep having fun! You have 11 - #{t} hours left."
+     r = 11-t
+    puts "Keep having fun! You have#{r} hour(s) left."
   elsif t > 11
     puts "You're in trouble! Better get home quick!"
   else t == 11
