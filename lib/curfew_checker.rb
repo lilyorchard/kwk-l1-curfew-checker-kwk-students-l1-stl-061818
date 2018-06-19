@@ -28,8 +28,16 @@ def complex_curfew_checker(t)
 end
 complex_curfew_checker(11)
 
-def deluxe_curfew_checker(time)
-  
+def deluxe_curfew_checker(t,r)
+   if t < 11
+     
+    puts "Keep having fun!"
+  elsif t > 11
+    puts "You're in trouble! Better get home quick!"
+  else t == 11
+    puts "Time to apparate!"
+  end
+end
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
