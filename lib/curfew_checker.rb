@@ -1,7 +1,7 @@
 def simple_curfew_checker(t)
   if t < 11
     puts "You're not in trouble!"
-  elsif t => 11
+  elsif t >= 11
     puts "You're in trouble! Better get home quick!"
   end
 end
